@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+#calcular {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    background-color: #b0dcf6;
+    color: #0066cc;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+#div {
+    color:#0066cc;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+
+#num {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #0066cc;
+    padding: 20px;
+    border: 2px solid #333;
+}
+#foto{
+    margin-top: -15%;
+    margin-left: 450px;
+    width: 300px;
+}
