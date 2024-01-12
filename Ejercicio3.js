@@ -1,3 +1,11 @@
+function calcularFactorial(numero) {
+    if (numero === 0 || numero === 1) {
+        return 1;
+    } else {
+        return numero * calcularFactorial(numero - 1);
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("calcular").addEventListener("click", function () {
         const numInput = document.getElementById("num");
@@ -14,10 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function calcularFactorial(numero) {
-    if (numero === 0 || numero === 1) {
-        return 1;
-    } else {
-        return numero * calcularFactorial(numero - 1);
-    }
-}
+
